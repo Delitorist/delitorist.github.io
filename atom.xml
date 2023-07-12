@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>delitorist的小屋</title>
   
   
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-07-08T02:03:39.383Z</updated>
+  <updated>2023-07-09T13:23:06.341Z</updated>
   <id>http://example.com/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>delitorist</name>
     
   </author>
   
@@ -21,8 +21,35 @@
     <link href="http://example.com/2023/07/08/My-New-Post/"/>
     <id>http://example.com/2023/07/08/My-New-Post/</id>
     <published>2023-07-08T02:03:39.000Z</published>
-    <updated>2023-07-08T02:03:39.383Z</updated>
+    <updated>2023-07-09T13:23:06.341Z</updated>
     
+    <content type="html"><![CDATA[<h2 id="随笔"><a href="#随笔" class="headerlink" title="随笔"></a>随笔</h2><p>设定一条精神兴奋水平曲线e(t)，值越高越兴奋，越低越不兴奋<br>快速入睡可转化为在曲线极小值处上床睡觉<br>曲线e(t)变化与当前活动有关：<br>激烈的活动导致激烈的变化，且产生变化为先极速上升，持平，再极速下降<br>舒缓的活动导致舒缓的变化<br>激烈类型的不同活动切换可能导致额外费用，一个活动持续至恢复初始状态较为稳妥</p><p>1、如何保证每天良好状态<br>精神状态问题，肯定是自身精神主导，但不可避免受到外界影响，通常情况两方共同采取措施更易达成目标<br>睡眠要保持充足 7-8小时<br>独居是否有必要？<br>目前看，独处的时候比较愉悦和放松，但独居可能导致过于孤单，有待进一步考证。<br>另外，宿舍偶尔只剩一人，这样的空歇时间是否足够，这样就不必考虑独居问题。</p><p>2、对我而言，一个舒适的作息时间是怎么样的？<br>晚上12点-12点半睡觉<br>7点-7点半起床<br>7点半-9点醒神、洗漱、吃早饭、做好开始工作的准备<br>中午睡30分钟左右<br>下午6点左右吃晚饭<br>晚上9点结束工作<br>9点-12点刷刷视频、玩会游戏、看会漫画</p><p>任务轻松条件下：<br>任务繁重条件下：认为可以干脆去掉娱乐时间，晚上工作完成后直接睡觉<br>娱乐势必带来新的开销（包括娱乐本身的精力消耗，产生新的刺激导致难以入眠）<br>此时问题在于：娱乐的主要作用是带来愉悦感，但代价是不小的精力与时间消耗，那么工作繁忙阶段，缺乏娱乐是否会导致愉悦感不足？忍受极限时间是多少？</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;随笔&quot;&gt;&lt;a href=&quot;#随笔&quot; class=&quot;headerlink&quot; title=&quot;随笔&quot;&gt;&lt;/a&gt;随笔&lt;/h2&gt;&lt;p&gt;设定一条精神兴奋水平曲线e(t)，值越高越兴奋，越低越不兴奋&lt;br&gt;快速入睡可转化为在曲线极小值处上床睡觉&lt;br&gt;曲线e(t)变化与当前活动</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>保研面试准备</title>
+    <link href="http://example.com/2023/07/08/%E4%BF%9D%E7%A0%94%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/"/>
+    <id>http://example.com/2023/07/08/%E4%BF%9D%E7%A0%94%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/</id>
+    <published>2023-07-08T02:03:39.000Z</published>
+    <updated>2023-07-09T03:24:42.147Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="保研面试准备"><a href="#保研面试准备" class="headerlink" title="保研面试准备"></a>保研面试准备</h2><h3 id="中科大"><a href="#中科大" class="headerlink" title="中科大"></a>中科大</h3><p>1.英语面试<br>准备英语自我介绍  </p><p>2.专业课复习<br>信号处理、机器学习相关课程重点，数学其次，模电相关最后</p><p>3.项目经历准备<br>正常回忆自己的工作，列个提纲总结一下即可</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;保研面试准备&quot;&gt;&lt;a href=&quot;#保研面试准备&quot; class=&quot;headerlink&quot; title=&quot;保研面试准备&quot;&gt;&lt;/a&gt;保研面试准备&lt;/h2&gt;&lt;h3 id=&quot;中科大&quot;&gt;&lt;a href=&quot;#中科大&quot; class=&quot;headerlink&quot; title=&quot;中科大</summary>
+      
     
     
     
@@ -34,7 +61,7 @@
     <link href="http://example.com/2023/07/08/hello-world/"/>
     <id>http://example.com/2023/07/08/hello-world/</id>
     <published>2023-07-08T01:57:01.387Z</published>
-    <updated>2023-07-08T01:57:01.388Z</updated>
+    <updated>2023-07-08T09:59:35.448Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
