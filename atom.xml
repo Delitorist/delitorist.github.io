@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-07-09T13:23:06.341Z</updated>
+  <updated>2023-07-29T10:44:36.221Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,18 +17,39 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>深度学习入门</title>
+    <link href="http://example.com/2023/07/26/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8/"/>
+    <id>http://example.com/2023/07/26/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8/</id>
+    <published>2023-07-26T05:48:39.000Z</published>
+    <updated>2023-07-29T10:44:36.221Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="资料收集"><a href="#资料收集" class="headerlink" title="资料收集"></a>资料收集</h2><h3 id="基础知识"><a href="#基础知识" class="headerlink" title="基础知识"></a>基础知识</h3><ul><li>综述性的文章  </li><li>deep learning（白书）  </li><li>吴恩达深度学习deeplearning.ai<br><a href="https://www.bilibili.com/video/BV1FT4y1E74V/?spm_id_from=333.337.search-card.all.click&amp;vd_source=6ba4d7effc66af16630d157e0a3e0d5d">https://www.bilibili.com/video/BV1FT4y1E74V/?spm_id_from=333.337.search-card.all.click&amp;vd_source=6ba4d7effc66af16630d157e0a3e0d5d</a><br><a href="https://www.deeplearningbook.org/">https://www.deeplearningbook.org/</a></li><li>李宏毅2021&#x2F;2022春机器学习课程<br><a href="https://www.bilibili.com/video/av246993280/?from=search&amp;seid=1172228444768340732&amp;spm_id_from=333.337.0.0&amp;vd_source=6ba4d7effc66af16630d157e0a3e0d5d">https://www.bilibili.com/video/av246993280/?from=search&amp;seid=1172228444768340732&amp;spm_id_from=333.337.0.0&amp;vd_source=6ba4d7effc66af16630d157e0a3e0d5d</a></li></ul><h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><ul><li>PyTorch深度学习快速入门教程 ——小土堆<br><a href="https://www.bilibili.com/video/BV1hE411t7RN/?spm_id_from=333.337.search-card.all.click&amp;vd_source=6ba4d7effc66af16630d157e0a3e0d5d">https://www.bilibili.com/video/BV1hE411t7RN/?spm_id_from=333.337.search-card.all.click&amp;vd_source=6ba4d7effc66af16630d157e0a3e0d5d</a>  </li><li>动手学深度学习 PyTorch版——李沐<br><a href="https://www.bilibili.com/video/BV1if4y147hS/?spm_id_from=333.999.0.0&amp;vd_source=6ba4d7effc66af16630d157e0a3e0d5d">https://www.bilibili.com/video/BV1if4y147hS/?spm_id_from=333.999.0.0&amp;vd_source=6ba4d7effc66af16630d157e0a3e0d5d</a></li></ul><h2 id="pytorch编程学习"><a href="#pytorch编程学习" class="headerlink" title="pytorch编程学习"></a>pytorch编程学习</h2><h3 id="pytorch安装"><a href="#pytorch安装" class="headerlink" title="pytorch安装"></a>pytorch安装</h3><p>步骤:<br>1.安装anaconda<br>2.查看显卡、cuda驱动版本（需满足pytorch版本需求）<br>3.根据需要的pytorch版本，到官方网站获取下载pytorch命令<br>官网：<a href="https://pytorch.org/get-started/previous-versions/">https://pytorch.org/get-started/previous-versions/</a></p><p>遇到的问题：<br>官方网站下载太慢，连接时间过长中断导致下载失败<br>solution：<br>更换国内镜像源下载<br><a href="https://zhuanlan.zhihu.com/p/470841101">https://zhuanlan.zhihu.com/p/470841101</a><br>警告：cpuonly库会导致默认安装cpu版本<br><a href="https://blog.csdn.net/HuangJM3/article/details/123685177">https://blog.csdn.net/HuangJM3/article/details/123685177</a></p><h3 id="安装编辑器Pycharm和VScode-Jupyter"><a href="#安装编辑器Pycharm和VScode-Jupyter" class="headerlink" title="安装编辑器Pycharm和VScode+Jupyter"></a>安装编辑器Pycharm和VScode+Jupyter</h3><p>1.vscode中导入torch失败，找不到caffe2_nvrtc.dll<br>解决方法：把vscode默认执行终端换成cmd<br><a href="https://zhuanlan.zhihu.com/p/591164051">https://zhuanlan.zhihu.com/p/591164051</a></p><h2 id="基础知识学习"><a href="#基础知识学习" class="headerlink" title="基础知识学习"></a>基础知识学习</h2><h3 id="课程结构"><a href="#课程结构" class="headerlink" title="课程结构"></a>课程结构</h3><p><img src="dp.png" alt="img">  </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;资料收集&quot;&gt;&lt;a href=&quot;#资料收集&quot; class=&quot;headerlink&quot; title=&quot;资料收集&quot;&gt;&lt;/a&gt;资料收集&lt;/h2&gt;&lt;h3 id=&quot;基础知识&quot;&gt;&lt;a href=&quot;#基础知识&quot; class=&quot;headerlink&quot; title=&quot;基础知识&quot;&gt;&lt;/a</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>My New Post</title>
     <link href="http://example.com/2023/07/08/My-New-Post/"/>
     <id>http://example.com/2023/07/08/My-New-Post/</id>
     <published>2023-07-08T02:03:39.000Z</published>
-    <updated>2023-07-09T13:23:06.341Z</updated>
+    <updated>2023-07-13T01:48:38.803Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="随笔"><a href="#随笔" class="headerlink" title="随笔"></a>随笔</h2><p>设定一条精神兴奋水平曲线e(t)，值越高越兴奋，越低越不兴奋<br>快速入睡可转化为在曲线极小值处上床睡觉<br>曲线e(t)变化与当前活动有关：<br>激烈的活动导致激烈的变化，且产生变化为先极速上升，持平，再极速下降<br>舒缓的活动导致舒缓的变化<br>激烈类型的不同活动切换可能导致额外费用，一个活动持续至恢复初始状态较为稳妥</p><p>1、如何保证每天良好状态<br>精神状态问题，肯定是自身精神主导，但不可避免受到外界影响，通常情况两方共同采取措施更易达成目标<br>睡眠要保持充足 7-8小时<br>独居是否有必要？<br>目前看，独处的时候比较愉悦和放松，但独居可能导致过于孤单，有待进一步考证。<br>另外，宿舍偶尔只剩一人，这样的空歇时间是否足够，这样就不必考虑独居问题。</p><p>2、对我而言，一个舒适的作息时间是怎么样的？<br>晚上12点-12点半睡觉<br>7点-7点半起床<br>7点半-9点醒神、洗漱、吃早饭、做好开始工作的准备<br>中午睡30分钟左右<br>下午6点左右吃晚饭<br>晚上9点结束工作<br>9点-12点刷刷视频、玩会游戏、看会漫画</p><p>任务轻松条件下：<br>任务繁重条件下：认为可以干脆去掉娱乐时间，晚上工作完成后直接睡觉<br>娱乐势必带来新的开销（包括娱乐本身的精力消耗，产生新的刺激导致难以入眠）<br>此时问题在于：娱乐的主要作用是带来愉悦感，但代价是不小的精力与时间消耗，那么工作繁忙阶段，缺乏娱乐是否会导致愉悦感不足？忍受极限时间是多少？</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="随笔"><a href="#随笔" class="headerlink" title="随笔"></a>随笔</h2><p>目标：快速入睡<br>影响因素：精神兴奋度，身体紧张度<br>适合睡觉的状态：精神兴奋度较低，身体紧张度适中（待定）</p><p>推论：睡前做一些比较无聊的事，激烈程度应依照身体紧张度确定</p><p>运动的效果应该是身体紧张度大幅下降，精神兴奋度提高</p><p>身体紧张度：<br>提高：集中精力做事<br>降低：不做事（效果差），运动</p><p>设定一条精神兴奋水平曲线e(t)，值越高越兴奋，越低越不兴奋<br>快速入睡可转化为在曲线极小值处上床睡觉<br>曲线e(t)变化与当前活动有关：<br>激烈的活动导致激烈的变化，且产生变化为先极速上升，持平，再极速下降<br>舒缓的活动导致舒缓的变化<br>激烈类型的不同活动切换可能导致额外费用，一个活动持续至恢复初始状态较为稳妥</p><p>1、如何保证每天良好状态<br>精神状态问题，肯定是自身精神主导，但不可避免受到外界影响，通常情况两方共同采取措施更易达成目标<br>睡眠要保持充足 7-8小时  要求睡眠质量，睡不着了硬睡也没用<br>独居是否有必要？<br>目前看，独处的时候比较愉悦和放松，但独居可能导致过于孤单，有待进一步考证。<br>另外，宿舍偶尔只剩一人，这样的空歇时间是否足够，这样就不必考虑独居问题。</p><p>2、对我而言，一个舒适的作息时间是怎么样的？<br>晚上12点-12点半睡觉<br>7点-7点半起床<br>7点半-9点醒神、洗漱、吃早饭、做好开始工作的准备<br>中午睡30分钟左右<br>下午6点左右吃晚饭<br>晚上9点结束工作<br>9点-12点刷刷视频、玩会游戏、看会漫画</p><p>任务轻松条件下：<br>任务繁重条件下：认为可以干脆去掉娱乐时间，晚上工作完成后直接睡觉<br>娱乐势必带来新的开销（包括娱乐本身的精力消耗，产生新的刺激导致难以入眠）<br>此时问题在于：娱乐的主要作用是带来愉悦感，但代价是不小的精力与时间消耗，那么工作繁忙阶段，缺乏娱乐是否会导致愉悦感不足？忍受极限时间是多少？</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h2 id=&quot;随笔&quot;&gt;&lt;a href=&quot;#随笔&quot; class=&quot;headerlink&quot; title=&quot;随笔&quot;&gt;&lt;/a&gt;随笔&lt;/h2&gt;&lt;p&gt;设定一条精神兴奋水平曲线e(t)，值越高越兴奋，越低越不兴奋&lt;br&gt;快速入睡可转化为在曲线极小值处上床睡觉&lt;br&gt;曲线e(t)变化与当前活动</summary>
+    <summary type="html">&lt;h2 id=&quot;随笔&quot;&gt;&lt;a href=&quot;#随笔&quot; class=&quot;headerlink&quot; title=&quot;随笔&quot;&gt;&lt;/a&gt;随笔&lt;/h2&gt;&lt;p&gt;目标：快速入睡&lt;br&gt;影响因素：精神兴奋度，身体紧张度&lt;br&gt;适合睡觉的状态：精神兴奋度较低，身体紧张度适中（待定）&lt;/p&gt;
+&lt;p&gt;推论：睡</summary>
       
     
     

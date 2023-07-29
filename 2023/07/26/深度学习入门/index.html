@@ -19,23 +19,29 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Gemini","darkmode":false,"version":"8.17.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":"ture","trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta property="og:type" content="website">
-<meta property="og:title" content="delitorist的小屋">
-<meta property="og:url" content="http://example.com/index.html">
+    <meta name="description" content="资料收集基础知识 综述性的文章   deep learning（白书）   吴恩达深度学习deeplearning.aihttps:&#x2F;&#x2F;www.bilibili.com&#x2F;video&#x2F;BV1FT4y1E74V&#x2F;?spm_id_from&#x3D;333.337.search-card.all.click&amp;vd_source&#x3D;6ba4d7effc66af16630d157e0a3e0d5dhttps:&#x2F;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="深度学习入门">
+<meta property="og:url" content="http://example.com/2023/07/26/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8/index.html">
 <meta property="og:site_name" content="delitorist的小屋">
+<meta property="og:description" content="资料收集基础知识 综述性的文章   deep learning（白书）   吴恩达深度学习deeplearning.aihttps:&#x2F;&#x2F;www.bilibili.com&#x2F;video&#x2F;BV1FT4y1E74V&#x2F;?spm_id_from&#x3D;333.337.search-card.all.click&amp;vd_source&#x3D;6ba4d7effc66af16630d157e0a3e0d5dhttps:&#x2F;">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://example.com/2023/07/26/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8/dp.png">
+<meta property="article:published_time" content="2023-07-26T05:48:39.000Z">
+<meta property="article:modified_time" content="2023-07-29T10:44:36.221Z">
 <meta property="article:author" content="delitorist">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/2023/07/26/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8/dp.png">
 
 
-<link rel="canonical" href="http://example.com/">
+<link rel="canonical" href="http://example.com/2023/07/26/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"en","comments":"","permalink":"","path":"index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"en","comments":true,"permalink":"http://example.com/2023/07/26/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8/","path":"2023/07/26/深度学习入门/","title":"深度学习入门"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>delitorist的小屋</title>
+<title>深度学习入门 | delitorist的小屋</title>
   
 
 
@@ -69,7 +75,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <h1 class="site-title">delitorist的小屋</h1>
+      <p class="site-title">delitorist的小屋</p>
       <i class="logo-line"></i>
     </a>
   </div>
@@ -122,7 +128,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           Table of Contents
@@ -135,6 +141,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B5%84%E6%96%99%E6%94%B6%E9%9B%86"><span class="nav-number">1.</span> <span class="nav-text">资料收集</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86"><span class="nav-number">1.1.</span> <span class="nav-text">基础知识</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BB%A3%E7%A0%81"><span class="nav-number">1.2.</span> <span class="nav-text">代码</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#pytorch%E7%BC%96%E7%A8%8B%E5%AD%A6%E4%B9%A0"><span class="nav-number">2.</span> <span class="nav-text">pytorch编程学习</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#pytorch%E5%AE%89%E8%A3%85"><span class="nav-number">2.1.</span> <span class="nav-text">pytorch安装</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E7%BC%96%E8%BE%91%E5%99%A8Pycharm%E5%92%8CVScode-Jupyter"><span class="nav-number">2.2.</span> <span class="nav-text">安装编辑器Pycharm和VScode+Jupyter</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E5%AD%A6%E4%B9%A0"><span class="nav-number">3.</span> <span class="nav-text">基础知识学习</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AF%BE%E7%A8%8B%E7%BB%93%E6%9E%84"><span class="nav-number">3.1.</span> <span class="nav-text">课程结构</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -169,16 +176,17 @@
 
     </div>
 
-    <div class="main-inner index posts-expand">
+    <div class="main-inner post posts-expand">
 
-    
+
+  
 
 
 <div class="post-block">
   
   
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
     <link itemprop="mainEntityOfPage" href="http://example.com/2023/07/26/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -192,13 +200,13 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | delitorist的小屋">
+      <meta itemprop="name" content="深度学习入门 | delitorist的小屋">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2023/07/26/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8/" class="post-title-link" itemprop="url">深度学习入门</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          深度学习入门
+        </h1>
 
         <div class="post-meta-container">
           <div class="post-meta">
@@ -242,8 +250,7 @@
     
     
     
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="资料收集"><a href="#资料收集" class="headerlink" title="资料收集"></a>资料收集</h2><h3 id="基础知识"><a href="#基础知识" class="headerlink" title="基础知识"></a>基础知识</h3><ul>
+    <div class="post-body" itemprop="articleBody"><h2 id="资料收集"><a href="#资料收集" class="headerlink" title="资料收集"></a>资料收集</h2><h3 id="基础知识"><a href="#基础知识" class="headerlink" title="基础知识"></a>基础知识</h3><ul>
 <li>综述性的文章  </li>
 <li>deep learning（白书）  </li>
 <li>吴恩达深度学习deeplearning.ai<br><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1FT4y1E74V/?spm_id_from=333.337.search-card.all.click&amp;vd_source=6ba4d7effc66af16630d157e0a3e0d5d">https://www.bilibili.com/video/BV1FT4y1E74V/?spm_id_from=333.337.search-card.all.click&amp;vd_source=6ba4d7effc66af16630d157e0a3e0d5d</a><br><a target="_blank" rel="noopener" href="https://www.deeplearningbook.org/">https://www.deeplearningbook.org/</a></li>
@@ -258,7 +265,6 @@
 <h3 id="安装编辑器Pycharm和VScode-Jupyter"><a href="#安装编辑器Pycharm和VScode-Jupyter" class="headerlink" title="安装编辑器Pycharm和VScode+Jupyter"></a>安装编辑器Pycharm和VScode+Jupyter</h3><p>1.vscode中导入torch失败，找不到caffe2_nvrtc.dll<br>解决方法：把vscode默认执行终端换成cmd<br><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/591164051">https://zhuanlan.zhihu.com/p/591164051</a></p>
 <h2 id="基础知识学习"><a href="#基础知识学习" class="headerlink" title="基础知识学习"></a>基础知识学习</h2><h3 id="课程结构"><a href="#课程结构" class="headerlink" title="课程结构"></a>课程结构</h3><p><img src="dp.png" alt="img">  </p>
 
-      
     </div>
 
     
@@ -266,299 +272,39 @@
     
 
     <footer class="post-footer">
-        <div class="post-eof"></div>
-      
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>Post author:  </strong>delitorist
+  </li>
+  <li class="post-copyright-link">
+      <strong>Post link: </strong>
+      <a href="http://example.com/2023/07/26/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8/" title="深度学习入门">http://example.com/2023/07/26/深度学习入门/</a>
+  </li>
+  <li class="post-copyright-license">
+      <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/zh-CN" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> unless stating additionally.
+  </li>
+</ul>
+</div>
+
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2023/07/08/My-New-Post/" rel="prev" title="My New Post">
+                  <i class="fa fa-chevron-left"></i> My New Post
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
     </footer>
   </article>
 </div>
 
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2023/07/08/My-New-Post/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="delitorist">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="delitorist的小屋">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | delitorist的小屋">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2023/07/08/My-New-Post/" class="post-title-link" itemprop="url">My New Post</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2023-07-08 10:03:39" itemprop="dateCreated datePublished" datetime="2023-07-08T10:03:39+08:00">2023-07-08</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-07-13 09:48:38" itemprop="dateModified" datetime="2023-07-13T09:48:38+08:00">2023-07-13</time>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Word count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Word count in article: </span>
-      <span>639</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>2 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="随笔"><a href="#随笔" class="headerlink" title="随笔"></a>随笔</h2><p>目标：快速入睡<br>影响因素：精神兴奋度，身体紧张度<br>适合睡觉的状态：精神兴奋度较低，身体紧张度适中（待定）</p>
-<p>推论：睡前做一些比较无聊的事，激烈程度应依照身体紧张度确定</p>
-<p>运动的效果应该是身体紧张度大幅下降，精神兴奋度提高</p>
-<p>身体紧张度：<br>提高：集中精力做事<br>降低：不做事（效果差），运动</p>
-<p>设定一条精神兴奋水平曲线e(t)，值越高越兴奋，越低越不兴奋<br>快速入睡可转化为在曲线极小值处上床睡觉<br>曲线e(t)变化与当前活动有关：<br>激烈的活动导致激烈的变化，且产生变化为先极速上升，持平，再极速下降<br>舒缓的活动导致舒缓的变化<br>激烈类型的不同活动切换可能导致额外费用，一个活动持续至恢复初始状态较为稳妥</p>
-<p>1、如何保证每天良好状态<br>精神状态问题，肯定是自身精神主导，但不可避免受到外界影响，通常情况两方共同采取措施更易达成目标<br>睡眠要保持充足 7-8小时  要求睡眠质量，睡不着了硬睡也没用<br>独居是否有必要？<br>目前看，独处的时候比较愉悦和放松，但独居可能导致过于孤单，有待进一步考证。<br>另外，宿舍偶尔只剩一人，这样的空歇时间是否足够，这样就不必考虑独居问题。</p>
-<p>2、对我而言，一个舒适的作息时间是怎么样的？<br>晚上12点-12点半睡觉<br>7点-7点半起床<br>7点半-9点醒神、洗漱、吃早饭、做好开始工作的准备<br>中午睡30分钟左右<br>下午6点左右吃晚饭<br>晚上9点结束工作<br>9点-12点刷刷视频、玩会游戏、看会漫画</p>
-<p>任务轻松条件下：<br>任务繁重条件下：认为可以干脆去掉娱乐时间，晚上工作完成后直接睡觉<br>娱乐势必带来新的开销（包括娱乐本身的精力消耗，产生新的刺激导致难以入眠）<br>此时问题在于：娱乐的主要作用是带来愉悦感，但代价是不小的精力与时间消耗，那么工作繁忙阶段，缺乏娱乐是否会导致愉悦感不足？忍受极限时间是多少？</p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2023/07/08/%E4%BF%9D%E7%A0%94%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="delitorist">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="delitorist的小屋">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | delitorist的小屋">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2023/07/08/%E4%BF%9D%E7%A0%94%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/" class="post-title-link" itemprop="url">保研面试准备</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2023-07-08 10:03:39" itemprop="dateCreated datePublished" datetime="2023-07-08T10:03:39+08:00">2023-07-08</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2023-07-09 11:24:42" itemprop="dateModified" datetime="2023-07-09T11:24:42+08:00">2023-07-09</time>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Word count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Word count in article: </span>
-      <span>78</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>1 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="保研面试准备"><a href="#保研面试准备" class="headerlink" title="保研面试准备"></a>保研面试准备</h2><h3 id="中科大"><a href="#中科大" class="headerlink" title="中科大"></a>中科大</h3><p>1.英语面试<br>准备英语自我介绍  </p>
-<p>2.专业课复习<br>信号处理、机器学习相关课程重点，数学其次，模电相关最后</p>
-<p>3.项目经历准备<br>正常回忆自己的工作，列个提纲总结一下即可</p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2023/07/08/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="delitorist">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="delitorist的小屋">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | delitorist的小屋">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2023/07/08/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-      
-
-      <time title="Created: 2023-07-08 09:57:01 / Modified: 17:59:35" itemprop="dateCreated datePublished" datetime="2023-07-08T09:57:01+08:00">2023-07-08</time>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="Word count in article">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">Word count in article: </span>
-      <span>78</span>
-    </span>
-    <span class="post-meta-item" title="Reading time">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">Reading time &asymp;</span>
-      <span>1 mins.</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
 
 
 
