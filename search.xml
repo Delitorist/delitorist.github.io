@@ -1,34 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>保研面试准备</title>
-    <url>/2023/07/08/%E4%BF%9D%E7%A0%94%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/</url>
-    <content><![CDATA[<h2 id="保研面试准备"><a href="#保研面试准备" class="headerlink" title="保研面试准备"></a>保研面试准备</h2><h3 id="中科大"><a href="#中科大" class="headerlink" title="中科大"></a>中科大</h3><p>1.英语面试<br>准备英语自我介绍  </p>
-<p>2.专业课复习<br>信号处理、机器学习相关课程重点，数学其次，模电相关最后</p>
-<p>3.项目经历准备<br>正常回忆自己的工作，列个提纲总结一下即可</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>深度学习入门</title>
-    <url>/2023/07/26/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8/</url>
-    <content><![CDATA[<h2 id="资料收集"><a href="#资料收集" class="headerlink" title="资料收集"></a>资料收集</h2><h3 id="基础知识"><a href="#基础知识" class="headerlink" title="基础知识"></a>基础知识</h3><ul>
-<li>综述性的文章  </li>
-<li>deep learning（白书）  </li>
-<li>吴恩达深度学习deeplearning.ai<br><a href="https://www.bilibili.com/video/BV1FT4y1E74V/?spm_id_from=333.337.search-card.all.click&amp;vd_source=6ba4d7effc66af16630d157e0a3e0d5d">https://www.bilibili.com/video/BV1FT4y1E74V/?spm_id_from=333.337.search-card.all.click&amp;vd_source=6ba4d7effc66af16630d157e0a3e0d5d</a><br><a href="https://www.deeplearningbook.org/">https://www.deeplearningbook.org/</a></li>
-<li>李宏毅2021&#x2F;2022春机器学习课程<br><a href="https://www.bilibili.com/video/av246993280/?from=search&amp;seid=1172228444768340732&amp;spm_id_from=333.337.0.0&amp;vd_source=6ba4d7effc66af16630d157e0a3e0d5d">https://www.bilibili.com/video/av246993280/?from=search&amp;seid=1172228444768340732&amp;spm_id_from=333.337.0.0&amp;vd_source=6ba4d7effc66af16630d157e0a3e0d5d</a></li>
-</ul>
-<h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><ul>
-<li>PyTorch深度学习快速入门教程 ——小土堆<br><a href="https://www.bilibili.com/video/BV1hE411t7RN/?spm_id_from=333.337.search-card.all.click&amp;vd_source=6ba4d7effc66af16630d157e0a3e0d5d">https://www.bilibili.com/video/BV1hE411t7RN/?spm_id_from=333.337.search-card.all.click&amp;vd_source=6ba4d7effc66af16630d157e0a3e0d5d</a>  </li>
-<li>动手学深度学习 PyTorch版——李沐<br><a href="https://www.bilibili.com/video/BV1if4y147hS/?spm_id_from=333.999.0.0&amp;vd_source=6ba4d7effc66af16630d157e0a3e0d5d">https://www.bilibili.com/video/BV1if4y147hS/?spm_id_from=333.999.0.0&amp;vd_source=6ba4d7effc66af16630d157e0a3e0d5d</a></li>
-</ul>
-<h2 id="pytorch编程学习"><a href="#pytorch编程学习" class="headerlink" title="pytorch编程学习"></a>pytorch编程学习</h2><h3 id="pytorch安装"><a href="#pytorch安装" class="headerlink" title="pytorch安装"></a>pytorch安装</h3><p>步骤:<br>1.安装anaconda<br>2.查看显卡、cuda驱动版本（需满足pytorch版本需求）<br>3.根据需要的pytorch版本，到官方网站获取下载pytorch命令<br>官网：<a href="https://pytorch.org/get-started/previous-versions/">https://pytorch.org/get-started/previous-versions/</a></p>
-<p>遇到的问题：<br>官方网站下载太慢，连接时间过长中断导致下载失败<br>solution：<br>更换国内镜像源下载<br><a href="https://zhuanlan.zhihu.com/p/470841101">https://zhuanlan.zhihu.com/p/470841101</a><br>警告：cpuonly库会导致默认安装cpu版本<br><a href="https://blog.csdn.net/HuangJM3/article/details/123685177">https://blog.csdn.net/HuangJM3/article/details/123685177</a></p>
-<h3 id="安装编辑器Pycharm和VScode-Jupyter"><a href="#安装编辑器Pycharm和VScode-Jupyter" class="headerlink" title="安装编辑器Pycharm和VScode+Jupyter"></a>安装编辑器Pycharm和VScode+Jupyter</h3><p>1.vscode中导入torch失败，找不到caffe2_nvrtc.dll<br>解决方法：把vscode默认执行终端换成cmd<br><a href="https://zhuanlan.zhihu.com/p/591164051">https://zhuanlan.zhihu.com/p/591164051</a></p>
-<h2 id="基础知识学习"><a href="#基础知识学习" class="headerlink" title="基础知识学习"></a>基础知识学习</h2><h3 id="课程结构"><a href="#课程结构" class="headerlink" title="课程结构"></a>课程结构</h3><p><img src="dp.png" alt="img">  </p>
-<h3 id="结构化与非结构化数据"><a href="#结构化与非结构化数据" class="headerlink" title="结构化与非结构化数据"></a>结构化与非结构化数据</h3><p><img src="2023-07-29-18-52.png" alt="img"></p>
-<h3 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h3>]]></content>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2023/07/08/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -44,6 +16,36 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>深度学习入门</title>
+    <url>/2023/07/26/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8/</url>
+    <content><![CDATA[<h2 id="资料收集"><a href="#资料收集" class="headerlink" title="资料收集"></a>资料收集</h2><h3 id="基础知识"><a href="#基础知识" class="headerlink" title="基础知识"></a>基础知识</h3><ul>
+<li>综述性的文章  </li>
+<li>deep learning（白书）  </li>
+<li>吴恩达深度学习deeplearning.ai<br><a href="https://www.bilibili.com/video/BV1FT4y1E74V/?spm_id_from=333.337.search-card.all.click&amp;vd_source=6ba4d7effc66af16630d157e0a3e0d5d">https://www.bilibili.com/video/BV1FT4y1E74V/?spm_id_from=333.337.search-card.all.click&amp;vd_source=6ba4d7effc66af16630d157e0a3e0d5d</a><br><a href="https://www.deeplearningbook.org/">https://www.deeplearningbook.org/</a></li>
+<li>李宏毅2021&#x2F;2022春机器学习课程<br><a href="https://www.bilibili.com/video/av246993280/?from=search&amp;seid=1172228444768340732&amp;spm_id_from=333.337.0.0&amp;vd_source=6ba4d7effc66af16630d157e0a3e0d5d">https://www.bilibili.com/video/av246993280/?from=search&amp;seid=1172228444768340732&amp;spm_id_from=333.337.0.0&amp;vd_source=6ba4d7effc66af16630d157e0a3e0d5d</a></li>
+</ul>
+<h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><ul>
+<li>PyTorch深度学习快速入门教程 ——小土堆<br><a href="https://www.bilibili.com/video/BV1hE411t7RN/?spm_id_from=333.337.search-card.all.click&amp;vd_source=6ba4d7effc66af16630d157e0a3e0d5d">https://www.bilibili.com/video/BV1hE411t7RN/?spm_id_from=333.337.search-card.all.click&amp;vd_source=6ba4d7effc66af16630d157e0a3e0d5d</a>  </li>
+<li>动手学深度学习 PyTorch版——李沐<br><a href="https://www.bilibili.com/video/BV1if4y147hS/?spm_id_from=333.999.0.0&amp;vd_source=6ba4d7effc66af16630d157e0a3e0d5d">https://www.bilibili.com/video/BV1if4y147hS/?spm_id_from=333.999.0.0&amp;vd_source=6ba4d7effc66af16630d157e0a3e0d5d</a></li>
+</ul>
+<span id="more"></span>
+
+<h2 id="pytorch编程学习"><a href="#pytorch编程学习" class="headerlink" title="pytorch编程学习"></a>pytorch编程学习</h2><h3 id="pytorch安装"><a href="#pytorch安装" class="headerlink" title="pytorch安装"></a>pytorch安装</h3><p>步骤:<br>1.安装anaconda<br>2.查看显卡、cuda驱动版本（需满足pytorch版本需求）<br>3.根据需要的pytorch版本，到官方网站获取下载pytorch命令<br>官网：<a href="https://pytorch.org/get-started/previous-versions/">https://pytorch.org/get-started/previous-versions/</a></p>
+<p>遇到的问题：<br>官方网站下载太慢，连接时间过长中断导致下载失败<br>solution：<br>更换国内镜像源下载<br><a href="https://zhuanlan.zhihu.com/p/470841101">https://zhuanlan.zhihu.com/p/470841101</a><br>警告：cpuonly库会导致默认安装cpu版本<br><a href="https://blog.csdn.net/HuangJM3/article/details/123685177">https://blog.csdn.net/HuangJM3/article/details/123685177</a></p>
+<h3 id="安装编辑器Pycharm和VScode-Jupyter"><a href="#安装编辑器Pycharm和VScode-Jupyter" class="headerlink" title="安装编辑器Pycharm和VScode+Jupyter"></a>安装编辑器Pycharm和VScode+Jupyter</h3><p>1.vscode中导入torch失败，找不到caffe2_nvrtc.dll<br>解决方法：把vscode默认执行终端换成cmd<br><a href="https://zhuanlan.zhihu.com/p/591164051">https://zhuanlan.zhihu.com/p/591164051</a></p>
+<h2 id="基础知识学习"><a href="#基础知识学习" class="headerlink" title="基础知识学习"></a>基础知识学习</h2><h3 id="课程结构"><a href="#课程结构" class="headerlink" title="课程结构"></a>课程结构</h3><p><img src="dp.png" alt="img">  </p>
+<h3 id="结构化与非结构化数据"><a href="#结构化与非结构化数据" class="headerlink" title="结构化与非结构化数据"></a>结构化与非结构化数据</h3><p><img src="2023-07-29-18-52.png" alt="img"></p>
+<h3 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h3>]]></content>
+  </entry>
+  <entry>
+    <title>保研面试准备</title>
+    <url>/2023/07/08/%E4%BF%9D%E7%A0%94%E9%9D%A2%E8%AF%95%E5%87%86%E5%A4%87/</url>
+    <content><![CDATA[<h2 id="保研面试准备"><a href="#保研面试准备" class="headerlink" title="保研面试准备"></a>保研面试准备</h2><h3 id="中科大"><a href="#中科大" class="headerlink" title="中科大"></a>中科大</h3><p>1.英语面试<br>准备英语自我介绍  </p>
+<p>2.专业课复习<br>信号处理、机器学习相关课程重点，数学其次，模电相关最后</p>
+<p>3.项目经历准备<br>正常回忆自己的工作，列个提纲总结一下即可</p>
 ]]></content>
   </entry>
 </search>
